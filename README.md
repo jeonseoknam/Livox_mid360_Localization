@@ -9,8 +9,8 @@ Included packages:
 ![Demo GIF](assets/mapping.gif)
 mapping demo(15x speed)
 
-![Demo GIF](assets/ekf_localizer.gif)
-localization demo(ekf)
+![Demo GIF](assets/ndt_scanmatcher.gif)
+localization demo(NDT scan matching)
 
 
 # Target HW
