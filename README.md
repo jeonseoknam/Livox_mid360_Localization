@@ -28,3 +28,5 @@ localization demo(NDT scan matching)
 # Referenced open source
 - https://github.com/rsasaki0109/lidarslam_ros2
 - https://github.com/TUM-AVS/RoboRacer-3DLiDAR
+- https://github.com/Livox-SDK/Livox-SDK2
+- https://github.com/Livox-SDK/livox_ros_driver2
