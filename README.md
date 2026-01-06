@@ -23,3 +23,8 @@ localization demo(NDT scan matching)
 # Environment
 - Ubuntu 22.04
 - ROS2
+
+
+# Referenced open source
+- https://github.com/rsasaki0109/lidarslam_ros2
+- https://github.com/TUM-AVS/RoboRacer-3DLiDAR
