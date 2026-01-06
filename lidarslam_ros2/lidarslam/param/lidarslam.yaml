@@ -1,0 +1,58 @@
+scan_matcher:
+  ros__parameters:
+    global_frame_id: "map"
+    robot_frame_id: "base_link"
+    registration_method: "NDT"
+    #ndt_resolution: 2.0
+    #ndt_resolution: 1.2
+    ndt_resolution: 1.8
+    ndt_num_threads: 3
+    # GICP일 때만 유효
+    #gicp_corr_dist_threshold: 5.0
+    vg_size_for_input: 0.22
+    vg_size_for_map: 0.16
+    use_min_max_filter: true
+    scan_min_range: 0.5
+    scan_max_range: 15.0
+    scan_period: 0.1
+    enable_angle_filter: false
+    fov_deg: 240.0
+    set_initial_pose: true
+    initital_pose_x: 18.8899
+    initital_pose_y: 6.3295
+    initital_pose_z: 0.0
+    initital_pose_qx: 0.0
+    initital_pose_qy: 0.0
+    initital_pose_qz: 0.999477
+    initital_pose_qw: 0.0323506
+    use_imu: false
+    use_odom: false
+    map_path: "/home/misys/ws_livox/real_hall/map.pcd"
+    publish_tf: true
+  
+    # map update 전용(slam)
+    trans_for_mapupdate: 1.5
+    num_targeted_cloud: 15
+    map_publish_period: 15.0
+
+    # debug
+    debug_sim_time: false
+    debug_wall_time: false
+    debug_flag: false
+    metrics_csv_path: "/home/misys/ws_livox/data/4F_e2e_time.csv"
+
+
+graph_based_slam:
+    ros__parameters:
+      registration_method: "NDT"
+      ndt_resolution: 1.0
+      ndt_num_threads: 2
+      voxel_leaf_size: 0.4
+      loop_detection_period: 1000
+      threshold_loop_closure_score: 0.7
+      distance_loop_closure: 100.0
+      range_of_searching_loop_closure: 20.0
+      search_submap_num: 10
+      num_adjacent_pose_cnstraints: 5
+      use_save_map_in_loop: true
+      debug_flag: true
