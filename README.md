@@ -11,6 +11,7 @@ mapping demo(15x speed)
 
 ![Demo GIF](assets/ndt_scanmatcher.gif)
 localization demo(NDT scan matching)
+(control: pure pursuit)
 
 
 # Target HW
