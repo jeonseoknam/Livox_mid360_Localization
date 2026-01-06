@@ -4,14 +4,14 @@ Included packages:
 - livox_ros_driver2
 - lidarslam_ros2
 
-##Demo
+# Demo
 ![Demo GIF](assets/gyro_odometer.gif)
 
-##Target HW
+# Target HW
 - NVIDIA AGX Orin
 - Livox MID 360 (3D LiDAR)
 - VESC mkIV
 
-##Environment
+# Environment
 - Ubuntu 22.04
 - ROS2
