@@ -22,7 +22,7 @@ localization demo(NDT scan matching)
 
 # Environment
 - Ubuntu 22.04
-- ROS2
+- ROS2 humble
 
 
 # Referenced open source
